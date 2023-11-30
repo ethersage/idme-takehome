@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from "react";
 
 import unescape from "./util/unescape";
+import { PurchaseData } from "./types/purchase-data";
 
 function App() {
-  const [items, setItems] = useState([]);
+  const [purchaseData, setItems] = useState<PurchaseData[]>([]);
 
   useEffect(() => {
     fetch(
@@ -18,7 +19,7 @@ function App() {
     <div>
       <h1>Purchases</h1>
       <ul>
-        {items.map((item) => (
+        {purchaseData.map((item) => (
           <li key={item.id}>
             {/* Display one of the JSON fields for each item */}
             <div>
