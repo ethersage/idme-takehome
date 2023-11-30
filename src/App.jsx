@@ -20,9 +20,10 @@ function App() {
           <li key={item.id}>
             {/* Display one of the JSON fields for each item */}
             <div>
-              <img src={item.location} />
+              <img src={item.location} height="30px" width="30px" />
             </div>
             <div>{item.name}</div>
+            <div>{item.description}</div>
             <div>{item.purchaseDate}</div>
             Price: {item.price}
           </li>
