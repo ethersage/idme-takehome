@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
 
+import unescape from "./util/unescape";
+
 function App() {
   const [items, setItems] = useState([]);
 
@@ -23,7 +25,7 @@ function App() {
               <img src={item.location} height="30px" width="30px" />
             </div>
             <div>{item.name}</div>
-            <div>{item.description}</div>
+            <div>{unescape(item.description)}</div>
             <div>{item.purchaseDate}</div>
             Price: {item.price}
           </li>
