@@ -1,8 +1,21 @@
-# React + Vite
+# ID.me Takehome
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Getting started
 
-Currently, two official plugins are available:
+### Install
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+```
+npm install
+```
+
+### Run
+
+```
+npm run dev
+```
+
+## Assumptions base on ambiguity
+
+The following is a list of assumptions I made where the user stories were ambiguous or didn't match the sample dataset
+
+1. The figma has a picture of company logos like Apple and Whole Foods, but the only image provided by the dataset were stock images, so I used the stock images as if they were logos.
