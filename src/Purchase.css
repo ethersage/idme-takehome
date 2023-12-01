@@ -15,16 +15,16 @@ img {
 
 .purchase-icon {
   height: 30px;
-  margin-right: 10px; /* Horizontal spacing */
+  margin-right: 10px;
   width: 30px;
 }
 
 .purchase-name {
   font-size: 16px;
   font-weight: bold;
-  flex-grow: 1; /* Allows the name to grow and fill the available space */
+  flex-grow: 1;
   line-height: 30px;
-  margin-right: 8px; /* Ensure the name doesn't touch the price */
+  margin-right: 8px;
 }
 
 .purchase-price {
@@ -61,5 +61,5 @@ img {
 .purchase-description,
 .purchase-date {
   font-size: 14px;
-  width: 100%; /* Forces these elements to take full width */
+  width: 100%;
 }
