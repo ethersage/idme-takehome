@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 
 import unescape from "./util/unescape";
 import { PurchaseData } from "./types/purchase-data";
+import toDateString from "./util/date";
 
 function App() {
   const [purchaseData, setItems] = useState<PurchaseData[]>([]);
@@ -27,7 +28,7 @@ function App() {
             </div>
             <div>{item.name}</div>
             <div>{unescape(item.description)}</div>
-            <div>{item.purchaseDate}</div>
+            <div>{toDateString(item.purchaseDate)}</div>
             Price: {item.price}
           </li>
         ))}
