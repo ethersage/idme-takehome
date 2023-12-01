@@ -20,6 +20,17 @@ function App() {
   return (
     <section>
       <h1>Purchases</h1>
+      <div className="purchase-heading-container">
+        <div className="purchase-heading">
+          <div className="purchase-item-heading">Name</div>
+          <div className="purchase-item-heading">Location</div>
+          <div className="purchase-item-heading">Purchase Date</div>
+          <div className="purchase-item-heading">Category</div>
+          <div className="purchase-item-heading">Description</div>
+          <div className="purchase-item-heading">Price</div>
+          {/* <div className="purchase-item-heading"></div> */}
+        </div>
+      </div>
       <ul className="purchase-list">
         {purchaseData.map((data) => (
           <li key={data.id}>
