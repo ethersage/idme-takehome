@@ -1,9 +1,7 @@
 import React, { useState, useEffect } from "react";
 
-import unescape from "./util/unescape";
 import { PurchaseData } from "./types/purchase-data";
-import toDateString from "./util/date";
-import toCurrencyString from "./util/currency";
+import Purchase from "./Purchase";
 
 function App() {
   const [purchaseData, setItems] = useState<PurchaseData[]>([]);
@@ -21,16 +19,9 @@ function App() {
     <div>
       <h1>Purchases</h1>
       <ul>
-        {purchaseData.map((item) => (
-          <li key={item.id}>
-            {/* Display one of the JSON fields for each item */}
-            <div>
-              <img src={item.location} height="30px" width="30px" />
-            </div>
-            <div>{item.name}</div>
-            <div>{unescape(item.description)}</div>
-            <div>{toDateString(item.purchaseDate)}</div>
-            Price: {toCurrencyString(item.price)}
+        {purchaseData.map((data) => (
+          <li key={data.id}>
+            <Purchase data={data} />
           </li>
         ))}
       </ul>
