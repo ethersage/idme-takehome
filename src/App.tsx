@@ -18,16 +18,16 @@ function App() {
   }, []);
 
   return (
-    <div>
+    <section>
       <h1>Purchases</h1>
-      <ul>
+      <ul className="purchase-list">
         {purchaseData.map((data) => (
           <li key={data.id}>
             <Purchase data={data} />
           </li>
         ))}
       </ul>
-    </div>
+    </section>
   );
 }
 

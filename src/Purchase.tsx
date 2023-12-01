@@ -24,6 +24,15 @@ const PurchaseItem: React.FC<PurchaseItemProps> = ({ data }) => {
         <div className="purchase-date">{toDateString(data.purchaseDate)}</div>
       </div>
       <div className="purchase-price">{toCurrencyString(data.price)}</div>
+      <div className="purchase-category-container">
+        <div
+          className={`purchase-category ${data.category
+            .toLowerCase()
+            .replace(/\s+/g, "-")}`}
+        >
+          {data.category}
+        </div>
+      </div>
     </section>
   );
 };
