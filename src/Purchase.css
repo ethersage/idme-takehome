@@ -112,4 +112,8 @@ img {
     flex-shrink: 1;
     margin-right: 40px;
   }
+
+  .purchase-date-heading {
+    display: none;
+  }
 }
