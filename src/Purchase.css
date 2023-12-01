@@ -24,7 +24,7 @@ img {
   font-weight: bold;
   flex-grow: 1;
   line-height: 30px;
-  margin-right: 8px;
+  margin: 0px;
   max-width: 60%;
 }
 

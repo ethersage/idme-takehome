@@ -17,10 +17,10 @@ const PurchaseItem: React.FC<PurchaseItemProps> = ({ data }) => {
       <div className="purchase-icon">
         <img src={data.location} alt={data.name} height="30px" width="30px" />
       </div>
-      <div className="purchase-name">{data.name}</div>
+      <h2 className="purchase-name">{data.name}</h2>
       <div className="purchase-description">{unescape(data.description)}</div>
       <div className="purchase-date-container">
-        <h2 className="purchase-date-heading">Purchase Date</h2>
+        <h3 className="purchase-date-heading">Purchase Date</h3>
         <div className="purchase-date">{toDateString(data.purchaseDate)}</div>
       </div>
       <div className="purchase-price">{toCurrencyString(data.price)}</div>
