@@ -13,7 +13,7 @@ interface PurchaseItemProps {
 
 const PurchaseItem: React.FC<PurchaseItemProps> = ({ data }) => {
   return (
-    <div className="purchase-item">
+    <section className="purchase-item">
       <div className="purchase-icon">
         <img src={data.location} alt={data.name} height="30px" width="30px" />
       </div>
@@ -24,7 +24,7 @@ const PurchaseItem: React.FC<PurchaseItemProps> = ({ data }) => {
         <div className="purchase-date">{toDateString(data.purchaseDate)}</div>
       </div>
       <div className="purchase-price">{toCurrencyString(data.price)}</div>
-    </div>
+    </section>
   );
 };
 
