@@ -3,6 +3,8 @@ import React, { useState, useEffect } from "react";
 import { PurchaseData } from "./types/purchase-data";
 import Purchase from "./Purchase";
 
+import "./App.css";
+
 function App() {
   const [purchaseData, setItems] = useState<PurchaseData[]>([]);
 

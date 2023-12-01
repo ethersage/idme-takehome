@@ -1,0 +1,65 @@
+img {
+  border-radius: 5px;
+}
+
+.purchase-item {
+  border: 1px solid #cdced9;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+  padding: 16px 24px;
+  position: relative;
+}
+
+.purchase-icon {
+  height: 30px;
+  margin-right: 10px; /* Horizontal spacing */
+  width: 30px;
+}
+
+.purchase-name {
+  font-size: 16px;
+  font-weight: bold;
+  flex-grow: 1; /* Allows the name to grow and fill the available space */
+  line-height: 30px;
+  margin-right: 8px; /* Ensure the name doesn't touch the price */
+}
+
+.purchase-price {
+  font-size: 18px;
+  font-weight: bold;
+  position: absolute;
+  top: 16px;
+  right: 24px;
+}
+
+.purchase-description {
+  margin-top: 5px;
+}
+
+.purchase-date-container {
+  margin-top: 10px;
+}
+
+.purchase-date-heading {
+  font-weight: 600;
+}
+
+.purchase-description,
+.purchase-date-heading {
+  color: #272833;
+}
+
+.purchase-name,
+.purchase-price,
+.purchase-date {
+  color: #232326;
+}
+
+.purchase-description,
+.purchase-date {
+  font-size: 14px;
+  width: 100%; /* Forces these elements to take full width */
+}
