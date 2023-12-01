@@ -8,9 +8,11 @@
 }
 
 body {
-  font-family: 'Source Sans 3';
+  font-family: "Source Sans 3";
 }
 
 ul {
   list-style: none;
+  margin: 0px;
+  padding: 0px;
 }
