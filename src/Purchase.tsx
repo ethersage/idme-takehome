@@ -20,7 +20,7 @@ const PurchaseItem: React.FC<PurchaseItemProps> = ({ data }) => {
       <div className="purchase-name">{data.name}</div>
       <div className="purchase-description">{unescape(data.description)}</div>
       <div className="purchase-date-container">
-        <div className="purchase-date-heading">Purchase Date</div>
+        <h2 className="purchase-date-heading">Purchase Date</h2>
         <div className="purchase-date">{toDateString(data.purchaseDate)}</div>
       </div>
       <div className="purchase-price">{toCurrencyString(data.price)}</div>

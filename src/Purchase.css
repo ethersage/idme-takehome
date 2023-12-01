@@ -50,6 +50,7 @@ img {
   font-size: 16px;
   font-weight: 600;
   line-height: 12px;
+  margin: 0;
 }
 
 .purchase-date {
@@ -71,4 +72,7 @@ img {
 .purchase-date {
   font-size: 14px;
   width: 100%;
+}
+
+@media (min-width: 1024px) {
 }
