@@ -26,3 +26,4 @@ The following is a list of assumptions I made where the user stories were ambigu
 1. The figma used line-height: 24px for the mobile purchase name, but to be vertically aligned to the middle of the image, as the design shows visually, I needed to match the line-height to the height of the image: 30px
 1. It was unclear what alt text to use for the image since it's not a logo so I chose to use the name.
 1. Applying the "Purchase Date" text line-height in the figma properties doesn't give the same visual look as the figma so I changed the line-height to 12px.
+1. For the grid view, the figma has widths on the columns, but they should probably be more dynamic, so I set sensible flex grow/shrink/basis conditions.

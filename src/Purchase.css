@@ -75,4 +75,41 @@ img {
 }
 
 @media (min-width: 1024px) {
+  .purchase-item {
+    flex-wrap: nowrap;
+    border-width: 0px;
+  }
+
+  .purchase-name {
+    order: 0;
+  }
+
+  .purchase-icon {
+    margin-left: 5px;
+    order: 1;
+  }
+
+  .purchase-date-container {
+    order: 2;
+  }
+
+  .purchase-description {
+    order: 4;
+  }
+
+  .purchase-price {
+    order: 5;
+    position: initial;
+  }
+
+  .purchase-name,
+  .purchase-icon,
+  .purchase-date-container,
+  .purchase-description,
+  .purchase-price {
+    flex-basis: 170px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    margin-right: 40px;
+  }
 }
