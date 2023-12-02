@@ -36,18 +36,11 @@ h1 {
     margin-left: 15px;
   }
 
-  .purchase-icon {
-    line-height: 30px;
-  }
-
-  .purchase-date-container {
-    line-height: 30px;
-    margin-top: 0;
-  }
-
   .desktop .purchase-category-container,
   .desktop .purchase-description,
-  .desktop .purchase-price {
+  .desktop .purchase-icon,
+  .desktop .purchase-price,
+  .desktop .purchase-date-container {
     font-size: 16px;
     font-weight: normal;
     margin-top: 0;
