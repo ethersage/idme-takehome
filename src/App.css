@@ -5,6 +5,10 @@ h1 {
   margin-left: 15px;
 }
 
+.desktop {
+  display: none;
+}
+
 .purchase-heading {
   display: none;
 }
@@ -16,28 +20,36 @@ h1 {
     line-height: 50px;
   }
 
+  .desktop {
+    display: block;
+  }
+
   .purchase-heading-container {
     border: 1px solid lightgray;
     margin-left: 15px;
     margin-bottom: -1px;
   }
 
-  .purchase-heading {
-    display: flex;
-    flex-direction: row;
-    margin: 0px 15px 10px 15px;
-    padding: 16px 24px;
-  }
-
-  .purchase-item-heading {
-    flex-basis: 170px;
-    flex-grow: 1;
-    flex-shrink: 1;
-    margin-right: 40px;
-  }
-
   .purchase-list {
     border: 1px solid lightgray;
     margin-left: 15px;
+  }
+
+  .purchase-icon {
+    line-height: 30px;
+  }
+
+  .purchase-date-container {
+    line-height: 30px;
+    margin-top: 0;
+  }
+
+  .desktop .purchase-category-container,
+  .desktop .purchase-description,
+  .desktop .purchase-price {
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 0;
+    line-height: 30px;
   }
 }
