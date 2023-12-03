@@ -26,33 +26,33 @@ function App() {
         aria-label="List of purchases"
       >
         <section className="purchase-item" role="row">
-          <div className="purchase-icon" role="columnheader" aria-colindex="1">
+          <div className="purchase-icon" role="columnheader" aria-colindex={1}>
             Location
           </div>
-          <div className="purchase-name" role="columnheader" aria-colindex="2">
+          <div className="purchase-name" role="columnheader" aria-colindex={2}>
             Name
           </div>
           <div
             className="purchase-description"
             role="columnheader"
-            aria-colindex="3"
+            aria-colindex={3}
           >
             Description
           </div>
           <div
             className="purchase-date-container"
             role="columnheader"
-            aria-colindex="4"
+            aria-colindex={4}
           >
             Purchase Date
           </div>
-          <div className="purchase-price" role="columnheader" aria-colindex="5">
+          <div className="purchase-price" role="columnheader" aria-colindex={5}>
             Price
           </div>
           <div
             className="purchase-category-container"
             role="columnheader"
-            aria-colindex="6"
+            aria-colindex={6}
           >
             Category
           </div>
