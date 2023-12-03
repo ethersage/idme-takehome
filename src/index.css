@@ -5,6 +5,14 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  --desktop-header-color: #16145a;
+
+  --primary-black: #272833;
+  --secondary-black: #232326;
+
+  --primary-border-color: lightgray;
+  --secondary-border-color: #cdced9;
 }
 
 body {

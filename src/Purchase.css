@@ -3,7 +3,7 @@ img {
 }
 
 .purchase-item {
-  border: 1px solid #cdced9;
+  border: 1px solid var(--secondary-border-color);
   border-radius: 10px;
   display: flex;
   flex-direction: row;
@@ -25,7 +25,7 @@ img {
   flex-grow: 1;
   line-height: 30px;
   margin: 0px;
-  max-width: 60%;
+  max-width: 53%;
 }
 
 .purchase-price {
@@ -63,13 +63,13 @@ img {
 
 .purchase-description,
 .purchase-date-heading {
-  color: #272833;
+  color: var(--primary-black);
 }
 
 .purchase-name,
 .purchase-price,
 .purchase-date {
-  color: #232326;
+  color: var(--secondary-black);
 }
 
 .purchase-description,

@@ -15,7 +15,7 @@ h1 {
 
 @media (min-width: 1024px) {
   h1 {
-    color: #16145a;
+    color: var(--desktop-header-color);
     font-size: 40px;
     line-height: 50px;
   }
@@ -25,13 +25,13 @@ h1 {
   }
 
   .purchase-heading-container {
-    border: 1px solid lightgray;
+    border: 1px solid var(--primary-border-color);
     margin-left: 15px;
     margin-bottom: -1px;
   }
 
   .purchase-list {
-    border: 1px solid lightgray;
+    border: 1px solid var(--primary-border-color);
     margin-bottom: -1px;
     margin-left: 15px;
   }
