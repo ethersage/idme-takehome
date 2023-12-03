@@ -56,6 +56,12 @@ function App() {
           >
             Category
           </div>
+          <div
+            className="purchase-actions"
+            role="columnheader"
+            aria-colindex={7}
+            aria-label="Header actions"
+          ></div>
         </section>
       </div>
       <ul className="purchase-list">

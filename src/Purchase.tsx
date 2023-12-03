@@ -43,6 +43,14 @@ const PurchaseItem: React.FC<PurchaseItemProps> = ({ data }) => {
           {data.category}
         </div>
       </div>
+      <button
+        className="purchase-actions"
+        role="cell"
+        aria-colindex={7}
+        aria-label="More actions"
+      >
+        <img src="/vertical-ellipses.svg" alt="Actions" />
+      </button>
     </section>
   );
 };
